@@ -6,7 +6,7 @@
 # Benötigt: pip install pdfplumber pandas pyinstaller
 
 # Mit diesem Befehl im Terminal, kann das main.py in einem .exe umgewandelt werden mit dem Namen "LizenzenExtractor".
-# pyinstaller --onefile --icon=logo.ico --name LicenseReportsExtractor --clean main.py
+# pyinstaller --onefile --icon=logo.ico --name M365LicenseReportsExtractor --clean main.py
 
 import selector
 import pdf_extractor

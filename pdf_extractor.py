@@ -100,7 +100,7 @@ def save_as_csv(all_rows: list[dict], date) -> None:
         df = df.sort_values(by=["Firma"], key=lambda col: col.str.lower())
 
     # Speichern als CSV
-    out_csv = f"{date} ExtractedLicenseOverviewReports.csv"
+    out_csv = f"{date} M365LicenseReportsExtracted.csv"
     df.to_csv(out_csv, index=False, sep=";", encoding="utf-8-sig")
     print(f"\nCSV gespeichert: {out_csv}")
 
